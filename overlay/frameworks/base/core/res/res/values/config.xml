@@ -51,4 +51,11 @@
     <!-- Disable Cell broadcast message support -->
     <bool name="config_cellBroadcastAppLinks">false</bool>
 
+    <!-- Enable multi-user in order to get restricted profile support. -->
+    <!-- TODO: move this to a more generic place once we have verified it. -->
+    <bool name="config_enableMultiUserUI">true</bool>
+    <integer name="config_multiuserMaximumUsers">2</integer>
+
+    <!-- Apps that are authorized to access shared accounts -->
+    <string name="config_appsAuthorizedForSharedAccounts">;com.android.tv.settings;</string>
 </resources>
