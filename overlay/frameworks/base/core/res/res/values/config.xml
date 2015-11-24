@@ -44,4 +44,8 @@
     <bool name="config_hasPermanentDpad">true</bool>
 
     <bool name="config_defaultInTouchMode">false</bool>
+
+    <!-- disable screenshot chord -->
+    <bool name="config_enableScreenshotChord">false</bool>
+
 </resources>
