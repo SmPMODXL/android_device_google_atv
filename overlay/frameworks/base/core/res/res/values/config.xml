@@ -58,4 +58,8 @@
 
     <!-- Apps that are authorized to access shared accounts -->
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.tv.settings;</string>
+
+    <!-- Use android tv account activity -->
+    <string name="config_chooseAccountActivity">com.google.android.gms/.common.account.NoTouchAccountPickerActivity</string>
+    <string name="config_chooseTypeAndAccountActivity">com.google.android.gms/.common.account.NoTouchAccountPickerActivity</string>
 </resources>
